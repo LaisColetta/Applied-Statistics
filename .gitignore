@@ -1,0 +1,62 @@
+# ---- SYSTEM FILES ----
+.DS_Store
+Thumbs.db
+
+# ---- MACOS SPECIFIC ----
+*.DS_Store
+*.AppleDouble
+._*
+
+# ---- PYTHON ----
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ---- JUPYTER NOTEBOOKS ----
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# ---- DATA SCIENCE ----
+# Ignore data files and results
+*.csv
+*.h5
+*.feather
+*.parquet
+*.xls
+*.xlsx
+*.sas7bdat
+*.sqlite
+*.pkl
+*.joblib
+
+# ---- OTHER ----
+# Logs and temp files
+*.log
+*.out
+*.tmp
+*.temp
+
+# VSCode settings
+.vscode/
+
+# ---- GENERAL ----
+# Config or secret files
+*.env
+.env.*
+
+# Ignore specific sensitive directories or files
+config.json
+secrets.json
