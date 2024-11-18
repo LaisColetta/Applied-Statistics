@@ -29,15 +29,7 @@ Each task contains the following sections:
 ---
 
 ### **project.ipynb**
-This Jupyter notebook is dedicated to the project titled **"Analysis of Plantgrowth Data Set"**. It includes a detailed breakdown of the project, along with all references.  
-
-### Project Contents:  
-
-#### **PROJECT TITLE:**  
-
-3.0 **Conclusion**  
-
-4.0 **References**  
+TO BE COMPLETED
 
 ---
 
@@ -63,6 +55,50 @@ Python 3.8 or later
 
 ## Installation Instructions
 
-1. Create an environment:  
+1. Create a conda environment using the following command:  
    ```bash
    conda create --name <envname> --file requirements.txt
+   ```
+2. Alternatively, install required libraries using pip:  
+   ```bash
+   pip install pandas
+   pip install numpy
+   pip install seaborn
+   pip install matplotlib
+   pip install scipy
+   pip install statsmodels
+   ```
+
+---
+
+## Running The Code
+
+1. Install [Anaconda](https://www.anaconda.com/download).  
+2. Install [Visual Studio Code](https://code.visualstudio.com/).  
+3. Clone the repository:  
+   ```bash
+   git clone <(https://github.com/LaisColetta/Applied-Statistics)>
+   ```  
+4. Open the cloned repository in Visual Studio Code.
+
+---
+
+## Usage Instructions
+
+- `.ipynb` files contain the tasks and project implementations.
+- Use **Markdown cells** for narrative text.
+- Use **Code cells** for Python code.
+
+---
+
+## Support Information
+
+For any issues or queries, contact:  
+**G00426044@atu.ie**
+
+---
+
+## License Information
+
+This project is licensed under the:  
+**GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007**
