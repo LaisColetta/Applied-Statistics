@@ -94,7 +94,7 @@ Python 3.8 or later
 ## Support Information
 
 For any issues or queries, contact:  
-**G00426044@atu.ie**
+**G00411338@atu.ie**
 
 ---
 
