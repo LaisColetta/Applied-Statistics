@@ -77,7 +77,7 @@ Python 3.8 or later
 2. Install [Visual Studio Code](https://code.visualstudio.com/).  
 3. Clone the repository:  
    ```bash
-   git clone <https://github.com/LaisColetta/Applied-Statistics>
+git clone https://github.com/LaisColetta/Applied-Statistics.git
    ```  
 4. Open the cloned repository in Visual Studio Code.
 
