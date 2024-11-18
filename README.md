@@ -1,60 +1,94 @@
-# Applied Statistics - ATU (Fall 2024)
+# Applied Statistics (Winter 2024)
 
-**Course Duration:** September to December 2024  
-**Institution:** ATU (Atlantic Technological University)  
-**Technologies Used:** Python, Jupyter Notebooks, GitHub  
+## Author: Lais Coletta Pereira  
+Email: G00411338@atu.ie  
+
+---
 
 ## Overview
-This repository contains my coursework for Applied Statistics, with work organized into tasks and a project to demonstrate skills in statistical analysis using Python. The course covers the stochastic nature of measurements, statistical testing, and interpretation of results in a rigorous framework.
 
-## Assessment Details
+This repository contains the tasks and project for the module **Applied Statistics** (Instructor: Dr. Ian McLoughlin).
 
-### Deadline
-All assessment components are due by **Friday, 20 December 2024**. Submission instructions are provided below. For clarification, questions should be raised well before the deadline.
+---
 
-### Objectives
-The assessment aims to demonstrate proficiency in:
-1. Describing stochastic behavior in real-world data.
-2. Using documentation to programmatically conduct statistical tests.
-3. Selecting suitable statistical tests for specific claims.
-4. Performing and interpreting statistical tests on datasets.
+## Features
 
-## Components of Assessment
+### **tasks.ipynb**
+This Jupyter notebook includes four tasks:  
+1. **Permutations and Combinations**  
+2. **numpy's Normal Distribution**  
+3. **t-Test Calculation**  
+4. **ANOVA**
 
-### 1. Repository (20%)
-This repository serves as the foundation for all assessment tasks. It is organized to facilitate ease of review and should be accessible for technical demonstrations. Please make sure:
-- The `main` branch contains the final submission.
-- Your GitHub username and repository name are submitted via the ATU student account form.
+---
 
-The repository structure includes:
-- **README.md**: Clear project description.
-- **.gitignore**: Excludes unnecessary files and folders.
-- Consistent naming conventions (e.g., lowercase filenames, no special characters in names).
+### **project.ipynb**
+This Jupyter notebook is dedicated to the project titled **"Analysis of Plantgrowth Data Set"**. It includes a detailed breakdown of the project, along with all references.  
 
-**Note**: If the repository is private, `ianmcloughlin` has been added as a collaborator.
+### Project Contents:  
 
-### 2. Tasks (40%)
-All tasks are completed in `tasks.ipynb`. Each task includes code and explanations in MarkDown, following PEP8 standards for readability.
+#### **PROJECT TITLE:**  
+**Analysis of Plantgrowth Data Set**  
 
-#### Task Breakdown
-- **Task 1:** Probability Calculations - Lady Tasting Tea Experiment
-  - Simulate the probability of a person guessing correctly, assuming no special skills.
-- **Task 2:** Normal Distribution Validation
-  - Generate a sample using `numpy.random.normal()`.
-  - Verify normal distribution using the Shapiro-Wilk test and visualize the results.
-- **Task 3:** t-Test on Heart Rates
-  - Compare heart rate data before and after an exercise program, calculating the t-statistic manually and with `scipy.stats`.
-- **Task 4:** ANOVA and Type II Error Simulation
-  - Estimate the probability of a Type II error through ANOVA on generated samples.
+#### **Project Description**  
 
-### 3. Project (40%)
-The project, located in `project.ipynb`, analyzes the PlantGrowth dataset. This includes statistical testing and documentation, with the following tasks:
-- Describe the dataset.
-- Explain and perform t-tests and ANOVA to assess differences between treatment groups.
+#### **Abstract**  
 
-### Marking Scheme
-Each component is evaluated based on:
-1. **Research:** Evidence of relevant research and documentation.
-2. **Development:** Clean, efficient, and well-commented code.
-3. **Documentation:** Clear explanations and a well-organized repository.
-4. **Consistency:** Regular, incremental commits showing development over time.
+1.0 **Plan**  
+
+2.0 **Methods and Implementation**  
+- **2.1** Download and save the dataset  
+- **2.2** Describe the dataset  
+- **2.3** Describe what a t-test is, how it works, and its assumptions:  
+  - **2.3.1** T-test definition  
+  - **2.3.2** How a t-test works  
+  - **2.3.3** Assumptions:  
+    - **Continuous Data:**  
+      - Histogram  
+      - Box Plot  
+    - Sample size  
+    - Independence and Random Sampling  
+    - Homogeneity of Variance (Levene's Test)  
+    - Test for Normality (Shapiro-Wilk Test):  
+      - Q-Q Plot  
+      - Shapiro-Wilk Test  
+
+- **2.4** Perform a t-test to determine whether there is a significant difference between the two treatment groups (trt1 and trt2):  
+  - **2.4.1** Independent Two-Sample T-test  
+
+- **2.5** Perform ANOVA to determine whether there is a significant difference between the three treatment groups (ctrl, trt1, and trt2):  
+  - **2.5.1** One-way ANOVA  
+
+- **2.6** Explain why ANOVA is more appropriate than multiple t-tests for analyzing more than two groups.  
+
+3.0 **Conclusion**  
+
+4.0 **References**  
+
+---
+
+## Technologies Used
+- Python 3.11.5  
+
+---
+
+## Dependencies
+
+### Required Python Version
+Python 3.8 or later  
+
+### Libraries:
+- `numpy` - for numerical computations  
+- `pandas` - for data manipulation  
+- `matplotlib` - for data visualization  
+- `seaborn` - for data visualization  
+- `scipy` - for statistical tests and distributions  
+- `statsmodels` - for additional statistical models and tests  
+
+---
+
+## Installation Instructions
+
+1. Create an environment:  
+   ```bash
+   conda create --name <envname> --file requirements.txt
