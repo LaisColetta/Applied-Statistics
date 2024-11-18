@@ -1,4 +1,4 @@
-# Applied Statistics (Winter 2024)
+# Assignments for Applied Statistics (Winter 2024)
 
 ## Author: Lais Coletta Pereira  
 Email: G00411338@atu.ie  
@@ -20,6 +20,12 @@ This Jupyter notebook includes four tasks:
 3. **t-Test Calculation**  
 4. **ANOVA**
 
+Each task contains the following sections:  
+- **Plan**  
+- **Methods and Implementation**  
+- **Conclusion**  
+- **References**  
+
 ---
 
 ### **project.ipynb**
@@ -28,38 +34,6 @@ This Jupyter notebook is dedicated to the project titled **"Analysis of Plantgro
 ### Project Contents:  
 
 #### **PROJECT TITLE:**  
-**Analysis of Plantgrowth Data Set**  
-
-#### **Project Description**  
-
-#### **Abstract**  
-
-1.0 **Plan**  
-
-2.0 **Methods and Implementation**  
-- **2.1** Download and save the dataset  
-- **2.2** Describe the dataset  
-- **2.3** Describe what a t-test is, how it works, and its assumptions:  
-  - **2.3.1** T-test definition  
-  - **2.3.2** How a t-test works  
-  - **2.3.3** Assumptions:  
-    - **Continuous Data:**  
-      - Histogram  
-      - Box Plot  
-    - Sample size  
-    - Independence and Random Sampling  
-    - Homogeneity of Variance (Levene's Test)  
-    - Test for Normality (Shapiro-Wilk Test):  
-      - Q-Q Plot  
-      - Shapiro-Wilk Test  
-
-- **2.4** Perform a t-test to determine whether there is a significant difference between the two treatment groups (trt1 and trt2):  
-  - **2.4.1** Independent Two-Sample T-test  
-
-- **2.5** Perform ANOVA to determine whether there is a significant difference between the three treatment groups (ctrl, trt1, and trt2):  
-  - **2.5.1** One-way ANOVA  
-
-- **2.6** Explain why ANOVA is more appropriate than multiple t-tests for analyzing more than two groups.  
 
 3.0 **Conclusion**  
 
