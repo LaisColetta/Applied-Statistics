@@ -29,7 +29,28 @@ Each task contains the following sections:
 ---
 
 ### **project.ipynb**
-TO BE COMPLETED
+### Project Structure
+Project ask: Your task is to perform t-tests and ANOVA on this dataset while describing the dataset and explaining your work. 
+Steps: 
+1. Download and Save the Dataset:
+Obtain and store the dataset in the repository.
+
+2. Describe the Dataset:
+Load the dataset, summarize its structure, and describe the variables (e.g., treatment groups).
+Explain the t-test:
+
+3. Define the t-test, its types (independent, paired, one-sample), assumptions (normality, independence, homogeneity of variance), and formula.
+Perform t-test:
+
+4. Apply an independent t-test to compare treatment groups (trt1 vs. trt2).
+Report the t-statistic and p-value.
+Perform ANOVA:
+
+5. Apply ANOVA to compare all three groups (ctrl, trt1, trt2).
+Report the F-statistic and p-value.
+
+6. Justify Using ANOVA:
+Explain why ANOVA is more appropriate than multiple t-tests for comparing more than two groups.
 
 ---
 
