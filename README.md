@@ -1,4 +1,4 @@
-# Assignments for Applied Statistics (Winter 2024)
+# Assignments for Applied Statistics (Winter 2024) PUT AN IMAGE AS A HEADERRR
 
 ## Author: Lais Coletta Pereira  
 Email: G00411338@atu.ie  
