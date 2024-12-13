@@ -1,7 +1,8 @@
-# Assignments for Applied Statistics (Winter 2024) PUT AN IMAGE AS A HEADERRR
+![Statistics](https://www.afponline.org/images/default-source/default-album/tips-for-using-statistics-well-_header-(750-250-px).png?sfvrsn=85e9136b_1)
 
+# Assignments for Applied Statistics (Winter 2024) 
 ## Author: Lais Coletta Pereira  
-Email: G00411338@atu.ie  
+## Lecturer: Ian McLoughlin
 
 ---
 
@@ -21,7 +22,6 @@ This Jupyter notebook includes four tasks:
 4. **ANOVA**
 
 Each task contains the following sections:  
-- **Plan**  
 - **Methods and Implementation**  
 - **Conclusion**  
 - **References**  
@@ -29,7 +29,7 @@ Each task contains the following sections:
 ---
 
 ### **project.ipynb**
-### Project Structure
+### Project Plan
 Project ask: Your task is to perform t-tests and ANOVA on this dataset while describing the dataset and explaining your work. 
 Steps: 
 1. Download and Save the Dataset:
@@ -115,11 +115,7 @@ git clone https://github.com/LaisColetta/Applied-Statistics.git
 ## Support Information
 
 For any issues or queries, contact:  
-**G00411338@atu.ie**
+**Email: G00411338@atu.ie**
 
 ---
-
-## License Information
-
-This project is licensed under the:  
-**GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007**
+# END
