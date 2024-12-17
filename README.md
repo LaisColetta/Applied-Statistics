@@ -9,30 +9,40 @@
 ## Overview  
 This repository contains coursework for the **Applied Statistics** module. It includes two Jupyter notebooks — one for practical tasks and another for the final project. Each file is structured with clear explanations, implementations, and conclusions to help reinforce statistical concepts.
 
+### Learning Outcomes
+- **Core Statistical Concepts**: Understand permutations, combinations, normal distribution, t-tests, and ANOVA in the weekly tasks stored in the tasks.ipynb.
+- **Practical Python for Statistics**: Apply `numpy`, `pandas`, `scipy`, and `statsmodels` for data analysis, visualization, and testing.
+- **Statistical Test Implementation**: Perform and interpret various t-tests (paired, independent, one-sample), and check assumptions (normality, independence).
+- **ANOVA and Post-Hoc Testing**: Apply one-way ANOVA for multi-group comparisons and interpret results using post-hoc tests (e.g., Tukey's HSD).
+- **Dataset Exploration and Descriptive Stats**: Wrangle and summarize datasets using descriptive statistics to understand data distribution.
+- **Critical Evaluation of Results**: Interpret p-values, t-statistics, and F-statistics to assess the significance and validity of statistical findings.
+- **Improved Visualization Skills**: Visualize data distributions with histograms, box plots, and Q-Q plots to support analysis.
+- **Report Writing**: Effectively communicate statistical methods, findings, and conclusions in clear, structured reports.
+
+
 ---
 
 ## Repository Contents  
 - **`tasks.ipynb`** — Contains four core statistical tasks with detailed breakdowns:  
-    1. **Permutations and Combinations**  
-    2. **Normal Distribution with NumPy**  
-    3. **t-Test Calculations**  
-    4. **ANOVA (Analysis of Variance)**  
+1. **Permutations and Combinations**  
+2. **Normal Distribution with NumPy**  
+3. **t-Test Calculations**  
+4. **ANOVA (Analysis of Variance)**  
 
     Each task includes:  
     - **Method and Implementation**  
-    - **Results**  
-    - **Short Conclusion**  
+    - **Results and Analysis**  
     - **References**  
 
 - **`project.ipynb`** — A final project involving t-tests and ANOVA on the plantgrowth.csv dataset while describing the dataset and explaining the work done in the jupyter notebook.  
 
     **Project Plan:**  
-   1. Download and Save the Dataset: Obtain and store the dataset in the repository.
-   2. Describe the Dataset: Load the dataset, summarize its structure, and describe the variables (e.g., treatment groups).
-   3. Explain the t-test: Define the t-test, its types (independent, paired, one-sample), assumptions (normality, independence, homogeneity of variance), and formula. 
-   4. Perform t-test: Apply an independent t-test to compare treatment groups (trt1 vs. trt2). Report the t-statistic and p-value. Perform 
-   5. ANOVA: Apply ANOVA to compare all three groups (ctrl, trt1, trt2). Report the F-statistic and p-value.
-   6. Justify Using ANOVA: Explain why ANOVA is more appropriate than multiple t-tests for comparing more than two groups. 
+1. Download and Save the Dataset: Obtain and store the dataset in the repository.
+2. Describe the Dataset: Load the dataset, summarize its structure, and describe the variables (e.g., treatment groups).
+3. Explain the t-test: Define the t-test, its types (independent, paired, one-sample), assumptions (normality, independence, homogeneity of variance), and formula. 
+4. Perform t-test: Apply an independent t-test to compare treatment groups (trt1 vs. trt2). Report the t-statistic and p-value. Perform 
+5. ANOVA: Apply ANOVA to compare all three groups (ctrl, trt1, trt2). Report the F-statistic and p-value.
+6. Justify Using ANOVA: Explain why ANOVA is more appropriate than multiple t-tests for comparing more than two groups. 
 
 ---
 
