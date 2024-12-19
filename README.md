@@ -17,34 +17,46 @@ This repository contains coursework for the **Applied Statistics** module. It in
 - **Dataset Exploration and Descriptive Stats**: Wrangle and summarize datasets using descriptive statistics to understand data distribution.
 - **Critical Evaluation of Results**: Interpret p-values, t-statistics, and F-statistics to assess the significance and validity of statistical findings.
 - **Improved Visualization Skills**: Visualize data distributions with histograms, box plots, and Q-Q plots to support analysis.
-- **Report Writing**: Effectively communicate statistical methods, findings, and conclusions in clear, structured reports.
+- **Report Writing**: Effectively write statistical methods using LaTex, findings, and conclusions in a clear, structured way.
 
 
 ---
+## Repository Contents
 
-## Repository Contents  
-**All libraries used in the Jupyter notebooks are located at the top of the file**
+**Note:**  
+- All libraries used in the Jupyter notebooks are listed at the top of each respective file.  
+- Bibliography references are included at the end of each task in the `tasks.ipynb` notebook and at the conclusion of the `project.ipynb` notebook.
 
-- **`tasks.ipynb`** — Contains four core statistical tasks with detailed breakdowns:  
-1. **Permutations and Combinations**  
-2. **Normal Distribution with NumPy**  
-3. **t-Test Calculations**  
-4. **ANOVA (Analysis of Variance)**  
+### 1. **`tasks.ipynb`** — Statistical Tasks  
+This notebook contains four statistical tasks with in-depth explanations and step-by-step analysis:  
 
-    **Tasks Plan:**  
-    1. Break down each task into smaller tasks
-    2. Explain each result and provide a brief analysis
-    3. Provide the references at the end of each task  
+- **Permutations and Combinations**  
+- **Normal Distribution with NumPy**  
+- **t-Test Calculations**  
+- **ANOVA (Analysis of Variance)**  
 
-- **`project.ipynb`** — A final project involving t-tests and ANOVA on the plantgrowth.csv dataset while describing the dataset and explaining the work done in the jupyter notebook.  
+**Task Plan:**  
+1. **Task Decomposition**: Each task is divided into smaller sub-tasks for easier understanding.  
+2. **Result Explanation**: Results are analyzed and explained in detail, providing context for the findings.  
+3. **Bibliography**: All references used are listed at the end of each task for transparency and further reading.
 
-    **Project Plan:**  
-   1. Download and Save the Dataset: Obtain and store the dataset in the repository.
-   2. Describe the Dataset: Load the dataset, summarize its structure, and describe the variables (e.g., treatment groups).
-   3. Explain the t-test: Define the t-test, its types (independent, paired, one-sample), assumptions (normality, independence, homogeneity of variance), and formula. 
-   4. Perform t-test: Apply an independent t-test to compare treatment groups (trt1 vs. trt2). Report the t-statistic and p-value. Perform 
-   5. ANOVA: Apply ANOVA to compare all three groups (ctrl, trt1, trt2). Report the F-statistic and p-value.
-   6. Justify Using ANOVA: Explain why ANOVA is more appropriate than multiple t-tests for comparing more than two groups. 
+### 2. **`project.ipynb`** — Final Project: Statistical Analysis on `plantgrowth.csv`  
+This notebook applies statistical analysis techniques, including t-tests and ANOVA, on the `plantgrowth.csv` dataset. The dataset is described in detail, and the methodology is explained thoroughly.  
+
+**Project Plan:**  
+1. **Dataset**:  
+   - Download and save the `plantgrowth.csv` dataset into the repository.  
+2. **Dataset Overview**:  
+   - Load the dataset, perform basic summarization, and describe the structure and key variables.  
+3. **Explain the t-Test**:  
+   - Define the t-test and describe its various types (independent, paired, and one-sample).  
+   - List the assumptions (normality, independence, homogeneity of variance) and provide the t-test formula.  
+4. **Perform the t-Test**:  
+   - Conduct an independent t-test to compare two treatment groups (`trt1` vs. `trt2`). Report the t-statistic and p-value.  
+5. **ANOVA Analysis**:  
+   - Apply one-way ANOVA to compare the three groups (control, `trt1`, and `trt2`). Report the F-statistic and p-value.  
+   - Explain why ANOVA is preferred over multiple t-tests when comparing more than two groups, and provide a rationale for its appropriateness in this context.
+
 
 ---
 
