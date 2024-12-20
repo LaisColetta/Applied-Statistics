@@ -6,8 +6,16 @@
 
 ---
 
-## Overview  
-This repository contains coursework for the **Applied Statistics** module. It includes two Jupyter notebooks — one for practical tasks and another for the final project. Each file is structured with clear explanations, implementations, and conclusions to help reinforce statistical concepts.
+## Repository Overview  
+This repository contains coursework for the **Applied Statistics** module as part of the ATU Computer Science - Data Analytics Higher Diploma. It includes:
+
+- Jupyter notebooks:  
+  - **`tasks.ipynb`**: Focused on practical statistical tasks.  
+  - **`project.ipynb`**: Dedicated to the final project.  
+- The `plantgrowth.csv` dataset, used for hands-on statistical analysis in the project.  
+- A `requirements.txt` file listing all necessary Python libraries to replicate the analysis.
+
+Each notebook provides concepts explanations, step-by-step implementations, and insightful conclusions to reinforce key statistical concepts.
 
 ### Learning Outcomes
 - **Core Statistical Concepts**: Understand permutations, combinations, normal distribution, t-tests, and ANOVA in the weekly tasks stored in the tasks.ipynb.
